@@ -1,235 +1,237 @@
-productType: "Staubsauger"
-name: "Krümel-Collector V1"
-series: "Krümel-Collector"
-power: "500W"
-energySupply: "Kabelgebunden"
-cableLength: "8 Meter"
-color: "Schwarz"
-price: "49,99€"
-volumeLevel: "85dB"
-filter: "Ja"
-filterCapacity: "1 Liter"
-wlan: "Nein"
-appControll: "Nein"
+ID: 1234
+productType: 'Staubsauger'
+name: 'Krümel-Collector V1'
+series: 'Krümel-Collector'
+power: '500W'
+energySupply: 'Kabelgebunden'
+cableLength: '8 Meter'
+color: 'Schwarz'
+price: '49,99€'
+volumeLevel: '85dB'
+filter: 'Ja'
+filterCapacity: '1 Liter'
+wlan: 'Nein'
+appControll: 'Nein'
 imgURL
+1234
 
-productType: "Staubsauger"
-name: "Krümel-Collector V2"
-series: "Krümel-Collector"
-power: "750W"
-energySupply: "Kabelgebunden"
-cableLength: "10 Meter"
-color: "Schwarz"
-price: "79,99€"
-volumeLevel: "75dB"
-filter: "Ja"
-filterCapacity: "1.5 Liter"
-wlan: "Nein"
-appControll: "Nein"
-imgURL: ""
+productType: 'Staubsauger'
+name: 'Krümel-Collector V2'
+series: 'Krümel-Collector'
+power: '750W'
+energySupply: 'Kabelgebunden'
+cableLength: '10 Meter'
+color: 'Schwarz'
+price: '79,99€'
+volumeLevel: '75dB'
+filter: 'Ja'
+filterCapacity: '1.5 Liter'
+wlan: 'Nein'
+appControll: 'Nein'
+imgURL: '
 
-productType: "Staubsauger"
-name: "Krümel-Collector V3"
-series: "Krümel-Collector"
-power: "1000W"
-energySupply: "Kabelgebunden"
-cableLength: "12 Meter"
-color: "Schwarz"
-price: "99,99€"
-volumeLevel: "60dB"
-filter: "Ja"
-filterCapacity: "2 Liter"
-wlan: "Nein"
-appControll: "Nein"
-imgURL: ""
+productType: 'Staubsauger'
+name: 'Krümel-Collector V3'
+series: 'Krümel-Collector'
+power: '1000W'
+energySupply: 'Kabelgebunden'
+cableLength: '12 Meter'
+color: 'Schwarz'
+price: '99,99€'
+volumeLevel: '60dB'
+filter: 'Ja'
+filterCapacity: '2 Liter'
+wlan: 'Nein'
+appControll: 'Nein'
+imgURL: '
 
-productType: "Staubsauger"
-name: "RoboCop V1"
-series: "RoboCop"
-power: "350W"
-energySupply: "Akkubetrieben"
-cableLength: "Kabellos"
-color: "Schwarz"
-price: "149,99€"
-volumeLevel: "73dB"
-filter: "Ja"
-filterCapacity: "0,5 Liter"
-wlan: "Ja"
-appControll: "Ja"
-imgURL: ""
+productType: 'Staubsauger'
+name: 'RoboCop V1'
+series: 'RoboCop'
+power: '350W'
+energySupply: 'Akkubetrieben'
+cableLength: 'Kabellos'
+color: 'Schwarz'
+price: '149,99€'
+volumeLevel: '73dB'
+filter: 'Ja'
+filterCapacity: '0,5 Liter'
+wlan: 'Ja'
+appControll: 'Ja'
+imgURL: '
 
-productType: "Staubsauger"
-name: "RoboCop V2"
-series: "RoboCop"
-power: "500W"
-energySupply: "Akkubetrieben"
-cableLength: "Kabellos"
-color: "Schwarz"
-price: "199,99€"
-volumeLevel: "69dB"
-filter: "Ja"
-filterCapacity: "0,75 Liter"
-wlan: "Ja"
-appControll: "Ja"
-imgURL: ""
+productType: 'Staubsauger'
+name: 'RoboCop V2'
+series: 'RoboCop'
+power: '500W'
+energySupply: 'Akkubetrieben'
+cableLength: 'Kabellos'
+color: 'Schwarz'
+price: '199,99€'
+volumeLevel: '69dB'
+filter: 'Ja'
+filterCapacity: '0,75 Liter'
+wlan: 'Ja'
+appControll: 'Ja'
+imgURL: '
 
-productType: "Staubsauger"
-name: "RoboCop V3"
-series: "RoboCop"
-power: "750W"
-energySupply: "Akkubetrieben"
-cableLength: "Kabellos"
-color: "Schwarz"
-price: "299,99€"
-volumeLevel: "56dB"
-filter: "Ja"
-filterCapacity: "1 Liter"
-wlan: "Ja"
-appControll: "Ja"
-imgURL: ""
+productType: 'Staubsauger'
+name: 'RoboCop V3'
+series: 'RoboCop'
+power: '750W'
+energySupply: 'Akkubetrieben'
+cableLength: 'Kabellos'
+color: 'Schwarz'
+price: '299,99€'
+volumeLevel: '56dB'
+filter: 'Ja'
+filterCapacity: '1 Liter'
+wlan: 'Ja'
+appControll: 'Ja'
+imgURL: '
 
-productType: "Staubsauger"
-name: "HandyDandy V1"
-series: "HandyDandy"
-power: "400W"
-energySupply: ""
-cableLength: ""
-actionRadius: ""
-color: ""
-price: ""
-volumeLevel: ""
-filter: ""
-filterCapacity: ""
-wlan: ""
-appControll: ""
-imgURL: ""
+productType: 'Staubsauger'
+name: 'HandyDandy V1'
+series: 'HandyDandy'
+power: '400W'
+energySupply: '
+cableLength: '
+actionRadius: '
+color: '
+price: '
+volumeLevel: '
+filter: '
+filterCapacity: '
+wlan: '
+appControll: '
+imgURL: '
 
-productType: ""
-name: ""
-series: ""
-power: ""
-energySupply: ""
-cableLength: ""
-actionRadius: ""
-color: ""
-price: ""
-volumeLevel: ""
-filter: ""
-filterCapacity: ""
-wlan: ""
-appControll: ""
-imgURL: ""
+productType: '
+name: '
+series: '
+power: '
+energySupply: '
+cableLength: '
+actionRadius: '
+color: '
+price: '
+volumeLevel: '
+filter: '
+filterCapacity: '
+wlan: '
+appControll: '
+imgURL: '
 
-productType: ""
-name: ""
-series: ""
-power: ""
-energySupply: ""
-cableLength: ""
-actionRadius: ""
-color: ""
-price: ""
-volumeLevel: ""
-filter: ""
-filterCapacity: ""
-wlan: ""
-appControll: ""
-imgURL: ""
+productType: '
+name: '
+series: '
+power: '
+energySupply: '
+cableLength: '
+actionRadius: '
+color: '
+price: '
+volumeLevel: '
+filter: '
+filterCapacity: '
+wlan: '
+appControll: '
+imgURL: '
 
-productType: ""
-name: ""
-series: ""
-power: ""
-energySupply: ""
-cableLength: ""
-actionRadius: ""
-color: ""
-price: ""
-volumeLevel: ""
-filter: ""
-filterCapacity: ""
-wlan: ""
-appControll: ""
-imgURL: ""
+productType: '
+name: '
+series: '
+power: '
+energySupply: '
+cableLength: '
+actionRadius: '
+color: '
+price: '
+volumeLevel: '
+filter: '
+filterCapacity: '
+wlan: '
+appControll: '
+imgURL: '
 
-productType: ""
-name: ""
-series: ""
-power: ""
-energySupply: ""
-cableLength: ""
-actionRadius: ""
-color: ""
-price: ""
-volumeLevel: ""
-filter: ""
-filterCapacity: ""
-wlan: ""
-appControll: ""
-imgURL: ""
+productType: '
+name: '
+series: '
+power: '
+energySupply: '
+cableLength: '
+actionRadius: '
+color: '
+price: '
+volumeLevel: '
+filter: '
+filterCapacity: '
+wlan: '
+appControll: '
+imgURL: '
 
-productType: ""
-name: ""
-series: ""
-power: ""
-energySupply: ""
-cableLength: ""
-actionRadius: ""
-color: ""
-price: ""
-volumeLevel: ""
-filter: ""
-filterCapacity: ""
-wlan: ""
-appControll: ""
-imgURL: ""
+productType: '
+name: '
+series: '
+power: '
+energySupply: '
+cableLength: '
+actionRadius: '
+color: '
+price: '
+volumeLevel: '
+filter: '
+filterCapacity: '
+wlan: '
+appControll: '
+imgURL: '
 
-productType: ""
-name: ""
-series: ""
-power: ""
-energySupply: ""
-cableLength: ""
-actionRadius: ""
-color: ""
-price: ""
-volumeLevel: ""
-filter: ""
-filterCapacity: ""
-wlan: ""
-appControll: ""
-imgURL: ""
+productType: '
+name: '
+series: '
+power: '
+energySupply: '
+cableLength: '
+actionRadius: '
+color: '
+price: '
+volumeLevel: '
+filter: '
+filterCapacity: '
+wlan: '
+appControll: '
+imgURL: '
 
-productType: ""
-name: ""
-series: ""
-power: ""
-energySupply: ""
-cableLength: ""
-actionRadius: ""
-color: ""
-price: ""
-volumeLevel: ""
-filter: ""
-filterCapacity: ""
-wlan: ""
-appControll: ""
-imgURL: ""
+productType: '
+name: '
+series: '
+power: '
+energySupply: '
+cableLength: '
+actionRadius: '
+color: '
+price: '
+volumeLevel: '
+filter: '
+filterCapacity: '
+wlan: '
+appControll: '
+imgURL: '
 
-productType: ""
-name: ""
-series: ""
-power: ""
-energySupply: ""
-cableLength: ""
-actionRadius: ""
-color: ""
-price: ""
-volumeLevel: ""
-filter: ""
-filterCapacity: ""
-wlan: ""
-appControll: ""
-imgURL: ""
+productType: '
+name: '
+series: '
+power: '
+energySupply: '
+cableLength: '
+actionRadius: '
+color: '
+price: '
+volumeLevel: '
+filter: '
+filterCapacity: '
+wlan: '
+appControll: '
+imgURL: '
 
 

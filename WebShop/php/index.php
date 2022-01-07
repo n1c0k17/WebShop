@@ -9,6 +9,9 @@
 <body>
     <div id="wrapper">
         <p>Hallo Welt</p>
+        <button onclick="readProduct()"> read</button>
+        
     </div>
-</body>
+    <script src="../js/ProductReader.js"></script>
+</body>  
 </html>
