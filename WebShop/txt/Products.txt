@@ -47,6 +47,7 @@ filterCapacity: `2 Liter`
 wlan: `Nein`
 appControll: `Nein`
 imgURL: ``
+1113
 
 ID: 1121
 productType: `Staubsauger`
