@@ -1,0 +1,37 @@
+.header {
+    font-family: Calibri, sans-serif;
+    padding: 10px;
+    text-align: center;
+    background: #ffffff;
+    color: black;
+    font-size: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    OVERFLOW: hidden;
+    background-color: white;
+
+}
+
+li {
+    float: LEFT;
+    border-right: 1px dotted #111;
+}
+
+li a {
+    font-family: Calibri, sans-serif;
+    display: block;
+    padding: 8px;
+    background-color:white;
+    color: black;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer {
+    font-family: Calibri, sans-serif;
+}
