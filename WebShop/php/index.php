@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="Staubsauger Webshop" content="Staubsauger, vacuum cleaner"/>
-	<link rel=" stylesheet" href="style.css">
+	<link rel=" stylesheet" href="../css/style.css">
 	<title>Webschop Staubsauger</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
 		<div id="Logo">WoS</div>
 		<div id="Slogan">"Für ein sauberes Zuhause"</div>
 		<div id="navigation">
-			<a href="WebShop.php">start</a>
+			<a href="Index.php">start</a>
 			<a href="Sale.php">Sale</a>
 			<a href="Impressum.php">Impressum</a>
 			<a href="#"><form action="input.htm">
@@ -31,6 +31,7 @@
 							<input type= "submit">
 							</form>
 							</a>
+		</div>
 		<div id="image">
 			<img src="Bild Webshop.jpg" alt="ansprechendes Bild">
 		</div>
