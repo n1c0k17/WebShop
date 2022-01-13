@@ -34,9 +34,9 @@
         Universitätsplatz 3<br>
         39106 Magdeburg<br><br>
         <strong>Vertreten durch:</strong><br>
-        Yannick (Nachname)<br>
+        Yannick Grund<br>
         Marten (Nachname)<br>
-        Nico (Nachname)<br>
+        Nico Knöfel<br>
         Daniel Weiß<br><br>
         <strong>Registereintrag:</strong><br>
         Eintragung im Handelsregister.<br>
