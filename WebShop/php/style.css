@@ -1,10 +1,16 @@
-.header {
+.header h1 {
     font-family: Calibri, sans-serif;
     padding: 10px;
     text-align: center;
-    background: #ffffff;
-    color: black;
-    font-size: 10px;
+    background:white;
+    color: green;
+    font-size: 20px;
+}
+
+.header img {
+    float: right;
+    width: 200px;
+    height: 200px;
 }
 
 ul {
@@ -17,7 +23,7 @@ ul {
 }
 
 li {
-    float: LEFT;
+    float: left;
     border-right: 1px dotted #111;
 }
 
