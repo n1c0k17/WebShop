@@ -62,6 +62,25 @@ footer{
 	color: grey;
 	margin: 8px;
 	text-decoration: none;
+}
+#articel1{
+	display: flex;
+	justify-content: space-between;
+}
+#imageArticel1{
+	width: 50%;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	text-align: center;
+}
+#articel2{
+	display: flex;
+	justify-content: space-between;
+}
+#articel3{
+	display: flex;
+	justify-content: space-between;
+}
 =======
 #name {
     padding: 60px;
