@@ -35,7 +35,12 @@
 		<div id="image">
 			<img src="Bild Webshop.jpg" alt="ansprechendes Bild">
 		</div>
-<body>
+	</div>
+	<div id="wrapper">
+		<button class="product" onclick="redirectToArtikel(1111)"> <img class="bImage" src="pic1.png"/></button>
+	</div>
+	<script src="../js/Redirection.js"></script>
+</body>
 <footer>
 		<div id="Beschreibung">Ein Projekt der Otto von Guericke Universität</div>
 </footer>
