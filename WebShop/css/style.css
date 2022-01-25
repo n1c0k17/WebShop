@@ -1,136 +1,171 @@
-<<<<<<< HEAD
-#navigation a {
-    font: Arial;
-    font-weight: bold;
-    font-size: 32px;
-    color: grey;
-    margin: 8px;
-    text-decoration: none;
-=======
-<<<<<<< Updated upstream
-
-#navigation a{
-	font: Arial;
-	font-weight: bold;
-	font-size: 32px;
-	color: grey;
-	margin: 8px;
-	text-decoration: none;
->>>>>>> 738dc82b1873da2a0353017eef42e81f0edc5a71
+.header h1 {
+    font-family: Calibri, sans-serif;
+    padding: 50px;
+    text-align: center;
+    background:BLACK;
+    color: WHITE;
+    font-size: 50px;
 }
 
-#navigation a:hover {
-    color: rgb(112, 195, 246);
-    font-weight: bold;
+.header img {
+    float: LEFT;
+    width: 161px;
+    height: 161px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    OVERFLOW: hidden;
+    background-color: #A9A9A9;
+
+}
+
+li {
+    float: left;
+    
+    
+}
+
+li a {
+    font-family: Calibri, sans-serif;
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.footer {
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    PADDING: 50px
+}
+
+
+
+.Impressum {
+    font-family: Calibri, sans-serif;
+    text-align: LEFT;
 }
 
 body {
-    font-family: Arial;
+    background-color: #A9A9A9;
+    
 }
 
-footer {
-    Color: black;
-    font-size: 16px;
-    background-color: lightblue;
+.image1 {
+    font-family: Calibri, sans-serif;
+    display: flex;
+    justify-content: left;
+    float: CENTER;
+    
+    
 }
 
-#top {
-    text-align: center;
+#textForPic {
+    FLOAT: center;
 }
-
-#name {
-    color: white;
-    background-color: rgb(112, 195, 246);
-    font-size: 48px;
-    font-weight: bold;
-    padding: 8px;
-}
-
-#Logo {
-    color: white;
-    background-color: rgb(112, 195, 246);
-    display: inline-block;
-    font-size: 32px;
-    font-weight: bold;
-    padding: 8px;
-    margin: 16px;
-}
-
-#Slogan {
-    font-size: 32px;
-    font-weight: bold;
-    margin: 8px;
-}
-
-#image img {
-    width: 100%;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-#image Krümel-Collector img {
-    width: 50%;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    text-align: center;
-}
-
-#mid {
-    font: Arial;
-    font-weight: bold;
-    font-size: 32px;
-    color: grey;
-    margin: 8px;
-    text-decoration: none;
-}
-
-#Beschreibung {
-    text-align: center;
-}
-
-.product {
-    border: 0px;
-    padding: 0px;
-}
-<<<<<<< HEAD
-
-.bImage {
-    width: 400px;
-}
-=======
-#mid{
-	font: Arial;
-	font-weight: bold;
-	font-size: 32px;
-	color: grey;
-	margin: 8px;
-	text-decoration: none;
-}
-#articel1{
+.articel1{
 	display: flex;
 	justify-content: space-between;
 }
-#imageArticel1{
-	width: 50%;
-	margin-top: 16px;
+.articel1 img{
+    width:500px;
+    height: 500px;
+    float: left;
+    margin-top: 16px;
 	margin-bottom: 16px;
-	text-align: center;
+    padding-left: 200px;
+
 }
-#articel2{
-	display: flex;
-	justify-content: space-between;
-}
-#articel3{
-	display: flex;
-	justify-content: space-between;
-}
-=======
-#name {
-    padding: 60px;
-    text-align: center;
-    background: #F0FFFF;
+.descriptionArticel1 {
+    font-family: Calibri, sans-serif;
+    font-size: X-large;
+    padding: 10px;
     color: black;
-    font-size: 20;
->>>>>>> Stashed changes
+    font-size: bold;
+    text-align: LEFT;
+    text-decoration: none;
+    FLOAT: left;
+    PADDING-RIGHT: 500px;
 }
->>>>>>> 738dc82b1873da2a0353017eef42e81f0edc5a71
+.pricearticel1 {
+    float:RIGHT;
+    font-family: Calibri, sans-serif;
+    font-size: xx-large;
+}
+#warenkorb {
+    background-color: red;
+    color: white;
+}
+.articel2{
+	display: flex;
+	justify-content: space-between;
+}
+.articel2 img{
+    width:500px;
+    height: 500px;
+    float: left;
+    margin-top: 16px;
+	margin-bottom: 16px;
+    padding-left: 200px;
+
+}
+.descriptionArticel2 {
+    font-family: Calibri, sans-serif;
+    font-size: X-large;
+    padding: 10px;
+    color: black;
+    font-size: bold;
+    text-align: LEFT;
+    text-decoration: none;
+    FLOAT: left;
+    PADDING-RIGHT: 500px;
+}
+.pricearticel2 {
+    float:RIGHT;
+    font-family: Calibri, sans-serif;
+    font-size: xx-large;
+}
+#warenkorb {
+    background-color: red;
+    color: white;
+}
+.artice3{
+	display: flex;
+	justify-content: space-between;
+}
+.artice3 img{
+    width:500px;
+    height: 500px;
+    float: left;
+    margin-top: 16px;
+	margin-bottom: 16px;
+    padding-left: 200px;
+
+}
+.descriptionArticel3 {
+    font-family: Calibri, sans-serif;
+    font-size: X-large;
+    padding: 10px;
+    color: black;
+    font-size: bold;
+    text-align: LEFT;
+    text-decoration: none;
+    FLOAT: left;
+    PADDING-RIGHT: 500px;
+}
+.pricearticel3 {
+    float:RIGHT;
+    font-family: Calibri, sans-serif;
+    font-size: xx-large;
+}
+#warenkorb {
+    background-color: red;
+    color: white;
+}
