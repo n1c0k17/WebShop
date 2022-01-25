@@ -11,7 +11,11 @@
     <title>Webschop Staubsauger</title>
 </head>
 
-<body>
+<body onload="{
+	readProduct(1121, 'RBCV1Info'); 
+	readProduct(1122, 'RBCV2Info'); 
+	readProduct(1123, 'RBCV3Info');
+}">
 
     <div class="header">
         <img src="../img/logo.png" alt="logo" />
@@ -41,12 +45,11 @@
 							</a>
 						-->
     <div class="articel1">
-        <img src="../img/kcv1.png" alt="Bild Krümelcollector" border: 1px>
+        <img id="RBCV1InfoImg" src="" alt="Bild Krümelcollector" border: 1px>
 
         <div class="descriptionArticel1">
-
-            <h1>Krümel-Collector V1 </h1>
-            series: Krümel-Collector <br> power: 500W<br> energySupply: Kabelgebunden<br> cableLength: 8 Meter<br> color: Schwarz<br> volumeLevel: 85dB<br> filter: Ja<br> filterCapacity: 1 Liter<br> wlan: Nein<br> appControll: Nein<br>
+            <h1>RoboCop V1 </h1>
+            <p id="RBCV1Info"></p>
         </div>
         <div class="pricearticel1">
             <br>
@@ -56,18 +59,17 @@
             <br>
             <br>
             <br>
-            <br>
-            <br> 49,99€
+            <p id="RBCV1InfoPrice"></p>
             <P id="warenkorb">In den Warenkorb</P>
         </div>
     </div>
 
     <div class="articel2">
-        <img src="../img/kcv2.png" alt="Bild von Artikel 2" border: 1px>
+        <img id="RBCV2InfoImg" src="" alt="Bild Krümelcollector" border: 1px>
 
         <div class="descriptionArticel2">
-            <h1>Krümel-Collector V2</h1>
-            series: Krümel-Collector<br> power: 750W<br> energySupply: Kabelgebunden<br> cableLength: 10 Meter<br> color: Schwarz<br> volumeLevel: 75dB<br> filter: Ja<br> filterCapacity: 1.5 Liter<br> wlan: Nein<br> appControll: Nein<br>
+            <h1>RoboCop V2 </h1>
+            <p id="RBCV2Info"></p>
         </div>
         <div class="pricearticel2">
             <br>
@@ -77,17 +79,16 @@
             <br>
             <br>
             <br>
-            <br>
-            <br> 79,99€
+            <p id="RBCV2InfoPrice"></p>
             <P id="warenkorb">In den Warenkorb</P>
         </div>
     </div>
     <div class="artice3">
-        <img src="../img/kcv3.png" alt="Bild von Artikel 3" border: 1px>
+        <img id="RBCV3InfoImg" src="" alt="Bild Krümelcollector" border: 1px>
 
         <div class="descriptionArticel3">
-            <h1> Krümel-Collector V3 </h1>
-            series: Krümel-Collector<br> power: 1000W<br> energySupply: Kabelgebunden<br> cableLength: 12 Meter<br> color: Schwarz<br> volumeLevel: 60dB<br> filter: Ja<br> filterCapacity: 2 Liter<br> wlan: Nein<br> appControll: Nein<br>
+            <h1>RoboCop V3 </h1>
+            <p id="RBCV3Info"></p>
         </div>
         <div class="pricearticel3">
             <br>
@@ -97,11 +98,11 @@
             <br>
             <br>
             <br>
-            <br>
-            <br> 99,99€
+            <p id="RBCV3InfoPrice"></p>
             <P id="warenkorb">In den Warenkorb</P>
         </div>
     </div>
+    <script src="../js/ProductReader.js"></script>
 </body>
 <footer class="footer">
     <div id="Kontakt"> Hast du Fragen zu unseren Produkten? Dann melde dich unter:</div>
