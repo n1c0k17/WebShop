@@ -11,7 +11,7 @@
     <title>Webschop Staubsauger</title>
 </head>
 
-<body>
+<body onload="{ readProduct(1131, 'HDV1Info'); readProduct(1132, 'HDV2Info'); readProduct(1133, 'HDV3Info');}">
 
     <div class="header">
         <img src="../img/logo.png" alt="logo" />
@@ -41,12 +41,12 @@
 							</a>
 						-->
     <div class="articel1">
-        <img src="../img/kcv1.png" alt="Bild Krümelcollector" border: 1px>
+        <img id="HDV1InfoImg" src="" alt="Bild Krümelcollector" border: 1px>
 
         <div class="descriptionArticel1">
 
             <h1>Krümel-Collector V1 </h1>
-            series: Krümel-Collector <br> power: 500W<br> energySupply: Kabelgebunden<br> cableLength: 8 Meter<br> color: Schwarz<br> volumeLevel: 85dB<br> filter: Ja<br> filterCapacity: 1 Liter<br> wlan: Nein<br> appControll: Nein<br>
+            <p id="HDV1Info"></p>
         </div>
         <div class="pricearticel1">
             <br>
@@ -63,11 +63,11 @@
     </div>
 
     <div class="articel2">
-        <img src="../img/kcv2.png" alt="Bild von Artikel 2" border: 1px>
+        <img id="HDV2InfoImg" src="" alt="Bild von Artikel 2" border: 1px>
 
         <div class="descriptionArticel2">
             <h1>Krümel-Collector V2</h1>
-            series: Krümel-Collector<br> power: 750W<br> energySupply: Kabelgebunden<br> cableLength: 10 Meter<br> color: Schwarz<br> volumeLevel: 75dB<br> filter: Ja<br> filterCapacity: 1.5 Liter<br> wlan: Nein<br> appControll: Nein<br>
+            <p id="HDV2Info"></p>
         </div>
         <div class="pricearticel2">
             <br>
@@ -83,11 +83,11 @@
         </div>
     </div>
     <div class="artice3">
-        <img src="../img/kcv3.png" alt="Bild von Artikel 3" border: 1px>
+        <img id="HDV3InfoImg" src="" alt="Bild von Artikel 3" border: 1px>
 
         <div class="descriptionArticel3">
             <h1> Krümel-Collector V3 </h1>
-            series: Krümel-Collector<br> power: 1000W<br> energySupply: Kabelgebunden<br> cableLength: 12 Meter<br> color: Schwarz<br> volumeLevel: 60dB<br> filter: Ja<br> filterCapacity: 2 Liter<br> wlan: Nein<br> appControll: Nein<br>
+            <p id="HDV3Info"></p>
         </div>
         <div class="pricearticel3">
             <br>
@@ -102,6 +102,7 @@
             <P id="warenkorb">In den Warenkorb</P>
         </div>
     </div>
+    <script src="../js/ProductReader.js"></script>
 </body>
 <footer class="footer">
     <div id="Kontakt"> Hast du Fragen zu unseren Produkten? Dann melde dich unter:</div>

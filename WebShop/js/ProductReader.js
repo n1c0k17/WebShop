@@ -17,17 +17,16 @@ var product = {
     imageURL: ""
 };
 
-function readProduct() {
+function readProduct(articleID, elementID) {
     fetch(input)
         .then(response => response.text())
         .then(text => {
             wordList = text.split(articleID);
-            alert(wordList[1])
-            declareProduct(wordList[1]);
+            displayValues(elementID, wordList[1]);
         });
 }
 
-function declareProduct(productInfo) {
+function declareProduct(productInfo, elementID) {
     var infos = productInfo.split("'");
     product.productType = infos[1];
     product.productName = infos[3];
@@ -43,14 +42,28 @@ function declareProduct(productInfo) {
     product.wlan = infos[23];
     product.appControl = infos[25];
     product.imageURL = infos[27];
-    alert(infos[3]);
-    alert(product.productName);
+    displayValues(elementID)
 }
 
-function displayValues() {
-    alert("klappt");
-    alert(product.productName)
-    document.getElementById("nameArtikel").innerHTML = product.productName;
-}
+function displayValues(elementID, productInfo) {
+    var infos = productInfo.split("'");
+    document.getElementById(elementID).innerHTML = "";
+    for (var index = 0; index < infos.length; index++) {
+        if (infos[index] == "\r\nimgURL: ") {
+            document.getElementById(elementID + "Img").src = infos[index + 1];
+            break;
+        }
+        if (index != 0 && index % 2 != 0) {
+            document.getElementById(elementID).innerHTML =
+                document.getElementById(elementID).innerHTML +
+                infos[index] +
+                "<br>";
 
-import { articleID } from '.'
+        } else {
+            document.getElementById(elementID).innerHTML =
+                document.getElementById(elementID).innerHTML +
+                infos[index];
+        }
+    }
+
+}
