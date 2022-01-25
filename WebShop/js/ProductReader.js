@@ -21,7 +21,8 @@ function readProduct() {
     fetch(input)
         .then(response => response.text())
         .then(text => {
-            wordList = text.split("1234")
+            wordList = text.split(articleID);
+            alert(wordList[1])
             declareProduct(wordList[1]);
         });
 }
@@ -42,4 +43,14 @@ function declareProduct(productInfo) {
     product.wlan = infos[23];
     product.appControl = infos[25];
     product.imageURL = infos[27];
+    alert(infos[3]);
+    alert(product.productName);
 }
+
+function displayValues() {
+    alert("klappt");
+    alert(product.productName)
+    document.getElementById("nameArtikel").innerHTML = product.productName;
+}
+
+import { articleID } from '.'

@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+#navigation a {
+    font: Arial;
+    font-weight: bold;
+    font-size: 32px;
+    color: grey;
+    margin: 8px;
+    text-decoration: none;
+=======
 <<<<<<< Updated upstream
 
 #navigation a{
@@ -7,54 +16,88 @@
 	color: grey;
 	margin: 8px;
 	text-decoration: none;
+>>>>>>> 738dc82b1873da2a0353017eef42e81f0edc5a71
 }
-#navigation a:hover{
-	color: rgb(112, 195, 246);
-	font-weight: bold;
+
+#navigation a:hover {
+    color: rgb(112, 195, 246);
+    font-weight: bold;
 }
-body{
-	font-family: Arial;
+
+body {
+    font-family: Arial;
 }
-footer{
-	Color: black;
-	font-size: 16px;
-	background-color: lightblue;
+
+footer {
+    Color: black;
+    font-size: 16px;
+    background-color: lightblue;
 }
-#top{
-	text-align: center;
+
+#top {
+    text-align: center;
 }
-#name{
-	color: white;
-	background-color: rgb(112, 195, 246);
-	font-size: 48px;
-	font-weight: bold;
-	padding: 8px;	
+
+#name {
+    color: white;
+    background-color: rgb(112, 195, 246);
+    font-size: 48px;
+    font-weight: bold;
+    padding: 8px;
 }
+
 #Logo {
-	color: white;
-	background-color: rgb(112, 195, 246);
-	display: inline-block;
-	font-size: 32px;
-	font-weight: bold;
-	padding: 8px;
-	margin: 16px;
+    color: white;
+    background-color: rgb(112, 195, 246);
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 16px;
 }
-#Slogan{
-	font-size: 32px;
-	font-weight:bold;
-	margin: 8px;
+
+#Slogan {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 8px;
 }
-#image img{
-	width: 100%;
-	margin-top: 16px;
-	margin-bottom: 16px;
+
+#image img {
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
-#image Krümel-Collector img{
-	width: 50%;
-	margin-top: 16px;
-	margin-bottom: 16px;
-	text-align: center;
+
+#image Krümel-Collector img {
+    width: 50%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
 }
+
+#mid {
+    font: Arial;
+    font-weight: bold;
+    font-size: 32px;
+    color: grey;
+    margin: 8px;
+    text-decoration: none;
+}
+
+#Beschreibung {
+    text-align: center;
+}
+
+.product {
+    border: 0px;
+    padding: 0px;
+}
+<<<<<<< HEAD
+
+.bImage {
+    width: 400px;
+}
+=======
 #mid{
 	font: Arial;
 	font-weight: bold;
@@ -90,3 +133,4 @@ footer{
     font-size: 20;
 >>>>>>> Stashed changes
 }
+>>>>>>> 738dc82b1873da2a0353017eef42e81f0edc5a71
