@@ -171,14 +171,9 @@ body {
 .BuyButton {
     background-color: rgb(71, 38, 70);
     color: white;
-    border-radius: 5px;
-    border-width: 0px;
-    width: 200px;
-    height: 50px;
-    font-size: medium;
 }
 
-p {
-    background-color: #979797;
-    border-radius: 5px;
+.ÜberUns {
+    font-family: Calibri, sans-serif;
+    font-size: large;
 }
