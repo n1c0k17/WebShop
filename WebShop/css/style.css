@@ -2,7 +2,7 @@
     font-family: Calibri, sans-serif;
     padding: 50px;
     text-align: center;
-    background:BLACK;
+    background: BLACK;
     color: WHITE;
     font-size: 50px;
 }
@@ -19,13 +19,10 @@ ul {
     padding: 8px;
     OVERFLOW: hidden;
     background-color: #A9A9A9;
-
 }
 
 li {
     float: left;
-    
-    
 }
 
 li a {
@@ -37,7 +34,6 @@ li a {
     font-size: large;
     text-align: center;
     text-decoration: none;
-    
 }
 
 .footer {
@@ -46,8 +42,6 @@ li a {
     PADDING: 50px
 }
 
-
-
 .Impressum {
     font-family: Calibri, sans-serif;
     text-align: LEFT;
@@ -55,7 +49,6 @@ li a {
 
 body {
     background-color: #A9A9A9;
-    
 }
 
 .image1 {
@@ -63,26 +56,26 @@ body {
     display: flex;
     justify-content: left;
     float: CENTER;
-    
-    
 }
 
 #textForPic {
     FLOAT: center;
 }
-.articel1{
-	display: flex;
-	justify-content: space-between;
+
+.articel1 {
+    display: flex;
+    justify-content: space-between;
 }
-.articel1 img{
-    width:500px;
+
+.articel1 img {
+    width: 500px;
     height: 500px;
     float: left;
     margin-top: 16px;
-	margin-bottom: 16px;
+    margin-bottom: 16px;
     padding-left: 200px;
-
 }
+
 .descriptionArticel1 {
     font-family: Calibri, sans-serif;
     font-size: X-large;
@@ -94,28 +87,32 @@ body {
     FLOAT: left;
     PADDING-RIGHT: 500px;
 }
+
 .pricearticel1 {
-    float:RIGHT;
+    float: RIGHT;
     font-family: Calibri, sans-serif;
     font-size: xx-large;
 }
+
 #warenkorb {
     background-color: red;
     color: white;
 }
-.articel2{
-	display: flex;
-	justify-content: space-between;
+
+.articel2 {
+    display: flex;
+    justify-content: space-between;
 }
-.articel2 img{
-    width:500px;
+
+.articel2 img {
+    width: 500px;
     height: 500px;
     float: left;
     margin-top: 16px;
-	margin-bottom: 16px;
+    margin-bottom: 16px;
     padding-left: 200px;
-
 }
+
 .descriptionArticel2 {
     font-family: Calibri, sans-serif;
     font-size: X-large;
@@ -127,28 +124,32 @@ body {
     FLOAT: left;
     PADDING-RIGHT: 500px;
 }
+
 .pricearticel2 {
-    float:RIGHT;
+    float: RIGHT;
     font-family: Calibri, sans-serif;
     font-size: xx-large;
 }
+
 #warenkorb {
     background-color: red;
     color: white;
 }
-.artice3{
-	display: flex;
-	justify-content: space-between;
+
+.artice3 {
+    display: flex;
+    justify-content: space-between;
 }
-.artice3 img{
-    width:500px;
+
+.artice3 img {
+    width: 500px;
     height: 500px;
     float: left;
     margin-top: 16px;
-	margin-bottom: 16px;
+    margin-bottom: 16px;
     padding-left: 200px;
-
 }
+
 .descriptionArticel3 {
     font-family: Calibri, sans-serif;
     font-size: X-large;
@@ -160,12 +161,24 @@ body {
     FLOAT: left;
     PADDING-RIGHT: 500px;
 }
+
 .pricearticel3 {
-    float:RIGHT;
+    float: RIGHT;
     font-family: Calibri, sans-serif;
     font-size: xx-large;
 }
-#warenkorb {
-    background-color: red;
+
+.BuyButton {
+    background-color: rgb(71, 38, 70);
     color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+
+p {
+    background-color: #979797;
+    border-radius: 5px;
 }
