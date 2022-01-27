@@ -20,17 +20,17 @@ p {
     border-width: 5px;
     font-family: Calibri, sans-serif;
     border-style: solid;
-    
     padding: 10px;
     background-color: black;
     color: white;
-    
 }
+
 .payBox h3 {
     font-family: Calibri, sans-serif;
     font-size: 30;
     text-align: center;
 }
+
 .payBox form {
     font-family: Calibri, sans-serif;
     font-size: 25;
@@ -40,34 +40,32 @@ p {
     display: flex;
 }
 
-<<<<<<< Updated upstream
-#backButton {
-    border-style: hidden;
-    background-color: black;
-    color: white;
-    font-size: 30px;
-    border-radius: 5px;
-=======
 #pay {
     font-size: 40;
->>>>>>> Stashed changes
 }
 
 input {
     margin: 20px;
     width: 200px;
 }
-<<<<<<< Updated upstream
 
 #choosenArticle {
-    width: 500px;
-    height: 500px;
-=======
-.linkOut a {
-    font-family: Calibri, sans-serif;
-    background-color: red;
+    width: 750px;
+    height: 750px;
+}
+
+#backButton {
+    border-style: hidden;
+    background-color: black;
     color: white;
-    text-decoration: none;
     border-radius: 5px;
->>>>>>> Stashed changes
+    font-size: 20px;
+}
+
+#payButton {
+    background-color: white;
+    color: black;
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 20px;
 }
