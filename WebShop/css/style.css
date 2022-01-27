@@ -19,6 +19,8 @@ ul {
     padding: 8px;
     OVERFLOW: hidden;
     background-color: #A9A9A9;
+    font-size: 23px;
+    
 }
 
 li {
@@ -31,10 +33,13 @@ li a {
     padding: 10px;
     background-color: black;
     color: white;
-    font-size: large;
+    font-size: 40;
     text-align: center;
     text-decoration: none;
+    border-radius: 7px;
+    margin-right: 4px;
 }
+
 
 .footer {
     font-family: Calibri, sans-serif;
@@ -52,14 +57,18 @@ body {
 }
 
 .image1 {
-    font-family: Calibri, sans-serif;
     display: flex;
     justify-content: left;
-    float: CENTER;
+    float: left;
+    width: 700px;
+    height: 700px;
+    margin-right: 50px;
+    
 }
 
-#textForPic {
-    FLOAT: center;
+.textForPic {
+    FLOAT: CENTER;
+    margin-left: 50px;
 }
 
 .articel1 {

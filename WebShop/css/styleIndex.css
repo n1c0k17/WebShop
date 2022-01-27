@@ -1,0 +1,118 @@
+
+
+.header h1 {
+    font-family: Calibri, sans-serif;
+    padding: 50px;
+    text-align: center;
+    background: BLACK;
+    color: WHITE;
+    font-size: 50px;
+}
+
+.header img {
+    float: LEFT;
+    width: 161px;
+    height: 161px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    OVERFLOW: hidden;
+    background-color: #A9A9A9;
+    font-size: 23px;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: Calibri, sans-serif;
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 60;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-right: 4px;
+}
+
+.linkHD a {
+    font-family: Calibri, sans-serif;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.linkHD a:hover{
+	color: black;
+	font-weight: bold;
+}
+
+.linkKC a {
+    font-family: Calibri, sans-serif;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.linkKC a:hover{
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+.linkRC a {
+    font-family: Calibri, sans-serif;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.linkRC a:hover{
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+
+body {
+    background-color: #A9A9A9;
+}
+
+
+
+.image1-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+#image1 {
+    width: 950px;
+    height: 650px;
+    float: left;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+#textForPic {
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+    text-align: LEFT;
+    text-decoration: none;
+    FLOAT: left;
+    margin-left: 25px;
+}
+
+
+
+.footer {
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    PADDING: 50px
+}
