@@ -26,8 +26,6 @@
         <div id="pay" class="payBox">
             <h3>Persönliche Daten:</h3>
             <form action="Out.html" method="post">
-                <label for="iban">IBAN: </label>
-                <input type="text" name="customerIban" id="iban" required>
                 <label for="fname">Vorname: </label>
                 <input type="text" name="customerFName" id="fname" required>
                 <br>
@@ -42,6 +40,9 @@
                 <br>
                 <label for="town">Ort</label>
                 <input type="text" name="customerTown" id="town" required>
+                <br>
+                <label for="iban">IBAN: </label>
+                <input type="text" name="customerIban" id="iban" required>
                 <div class="linkOut"> <button id="payButton" type="submit">Bezahlen</button></div> <br>
             </form>
         </div>
