@@ -15,11 +15,17 @@ p {
 }
 
 .payBox {
-    float: left;
     margin: 50px;
     border-width: 5px;
 }
 
-footer {
-    float: none;
+#wrapper {
+    display: flex;
+}
+
+#pay {}
+
+input {
+    margin: 20px;
+    width: 200px;
 }
