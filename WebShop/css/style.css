@@ -192,3 +192,14 @@ body {
     font-size: large;
     text-align: center;
 }
+
+.customerOut h2 {
+    font-family: Calibri, sans-serif;
+    font-size: 35;
+    text-align: center;
+}
+.customerOut p {
+    font-family: Calibri, sans-serif;
+    font-size: 23;
+    text-align: center;
+}

@@ -24,14 +24,25 @@
         </div>
 
         <div id="pay" class="payBox">
+            <h3>Persönliche Daten:</h3>
             <form>
                 <label for="iban">IBAN: </label>
                 <input type="text" name="customerIban" id="iban" required>
                 <label for="fname">Vorname: </label>
                 <input type="text" name="customerFName" id="fname" required>
+                <br>
                 <label for="lname">Nachname</label>
                 <input type="text" name="costumerLName" id="lname" required>
-                <button type="submit" id="payButton">bezahlen</button>
+                <br>
+                <label for="street/number">Straße und Hausnummer</label>
+                <input type="text" name="customerStreet/Number" id="street/number" required>
+                <br>
+                <label for="zipcode">Postleitzahl</label>
+                <input type="text" name="customerZipCode" id="zipcode" required>
+                <br>
+                <label for="town">Ort</label>
+                <input type="text" name="customerTown" id="town" required>
+                <div class = "linkOut"> <a href="Out.html">Bezahlen</a></div> <br>
             </form>
         </div>
     </div>
