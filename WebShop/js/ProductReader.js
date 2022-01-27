@@ -26,6 +26,15 @@ function readProduct(articleID, elementID) {
         });
 }
 
+function readProduct(articleID) {
+    fetch(input)
+        .then(response => response.text())
+        .then(text => {
+            wordList = text.split(articleID);
+            buyDisplay(wordList[1]);
+        });
+}
+
 function displayValues(elementID, productInfo) {
     var infos = productInfo.split("'");
     document.getElementById(elementID).innerHTML = "";
@@ -51,5 +60,9 @@ function displayValues(elementID, productInfo) {
                 infos[index];
         }
     }
+
+}
+
+function buyDisplay(list) {
 
 }
