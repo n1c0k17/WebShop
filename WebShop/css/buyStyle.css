@@ -44,19 +44,27 @@ p {
     font-size: 40;
 }
 
+#backButton {
+    border-style: hidden;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
 input {
     margin: 20px;
     width: 200px;
 }
 
 #choosenArticle {
-    width: 750px;
-    height: 750px;
+    width: 500px;
+    height: 500px;
 }
 
-#backButton {
-    border-style: hidden;
-    background-color: black;
+.linkOut a {
+    font-family: Calibri, sans-serif;
+    background-color: red;
     color: white;
     border-radius: 5px;
     font-size: 20px;
