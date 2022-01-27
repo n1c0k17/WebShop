@@ -23,9 +23,20 @@ p {
     display: flex;
 }
 
-#pay {}
+#backButton {
+    border-style: hidden;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+}
 
 input {
     margin: 20px;
     width: 200px;
+}
+
+#choosenArticle {
+    width: 500px;
+    height: 500px;
 }
