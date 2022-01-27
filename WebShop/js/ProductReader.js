@@ -26,7 +26,7 @@ function readProduct(articleID, elementID) {
         });
 }
 
-function readProduct(articleID) {
+function readChoosenProduct(articleID) {
     fetch(input)
         .then(response => response.text())
         .then(text => {
@@ -63,6 +63,16 @@ function displayValues(elementID, productInfo) {
 
 }
 
-function buyDisplay(list) {
-
+function buyDisplay(product) {
+    var infos = product.split("'");
+    for (var index = 0; index < infos.length; index++) {
+        if (infos[index] == "\r\nPreis: ") {
+            document.getElementById("price").innerHTML = infos[index + 1];
+        } else if (infos[index] == "\r\nname: ") {
+            document.getElementById("article").innerHTML = infos[index + 1];
+            break;
+        } else if (infos[index] == "\r\nimgURL: ") {
+            document.getElementById("choosenArticle").src = infos[index + 1];
+        }
+    }
 }
