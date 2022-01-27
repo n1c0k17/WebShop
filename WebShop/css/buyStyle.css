@@ -40,34 +40,27 @@ p {
     display: flex;
 }
 
-<<<<<<< Updated upstream
 #backButton {
     border-style: hidden;
     background-color: black;
     color: white;
     font-size: 30px;
     border-radius: 5px;
-=======
-#pay {
-    font-size: 40;
->>>>>>> Stashed changes
 }
 
 input {
     margin: 20px;
     width: 200px;
 }
-<<<<<<< Updated upstream
 
 #choosenArticle {
     width: 500px;
     height: 500px;
-=======
+}
 .linkOut a {
     font-family: Calibri, sans-serif;
     background-color: red;
     color: white;
     text-decoration: none;
     border-radius: 5px;
->>>>>>> Stashed changes
 }
